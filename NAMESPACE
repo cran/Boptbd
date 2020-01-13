@@ -1,0 +1,12 @@
+exportPattern("^[[:alpha:]]+")
+import(MASS, Matrix, igraph, tcltk)
+  importFrom("grDevices", "dev.off", "pdf")
+  importFrom("graphics", "plot", "title","mtext", "par")
+  importFrom("stats", "contrasts")
+  importFrom("utils", "combn", "write.table", "fix")
+  importFrom("stats", "rbeta")
+S3method(print, Boptbd) 
+S3method(summary, Boptbd) 
+S3method(print, summary.Boptbd)
+S3method(Boptbd, default)
+ 

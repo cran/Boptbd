@@ -1,0 +1,31 @@
+print.summary.Boptbd <-
+function(x,...)
+{
+cat("\n        ---------------------------------------    \n")
+cat("Title:  ","Bayesian ",x$Optcrit,"-optimal block design        ","Date: ", format(Sys.time(), "%a %b %d %Y %H:%M:%S"),"\n",sep="")
+cat("        ---------------------------------------    \n")
+cat("Call:\n")
+print(x$call)
+cat("\nParametric combinations:\n")
+cat("\nNumber of treatments:          ", x$v, "\n")
+cat("Number of blocks:              ", x$b, "\n")
+cat("Alpha value:                   ",  x$alpha, "\n")
+cat("Beta value:                    ",  x$beta, "\n")
+cat("Number of MC selections:       ",  x$brep, "\n")
+cat("Number of replications:        ",  x$nrep, "\n")
+cat("Number of exchange iteration:  ", x$itr.cvrgval, "\n")
+#cat("Algorithm used:                ", x$Alg, "\n")
+cat("Optimality criterion used:  Bayesian ", x$Optcrit, "-optimality criteria\n",sep="")
+cat("\nResultant Bayesian ",x$Optcrit,"-optimal block design:\n",sep="")
+cat("\n")
+print(data.frame(x$OptdesF))
+cat("\n")
+cat(x$Optcrit,"-Score value:  ", x$Optcrtsv, "\n",sep="")
+plot(x$grphlt,edge.arrow.size=5, vertex.size=20, margin=0.5,
+       layout=layout.kamada.kawai,vertex.color="cyan",edge.color="black")
+title(paste("Graphical layout of Bayesian", paste(x$Optcrit,"-optimal block design",sep=""),sep=" "), 
+      sub = NULL,cex.main = 1,   font.main= 1, col.main= "black")
+mtext(paste("(v, b, alpha,beta) =", " (",paste(x$v, x$b, x$alpha, x$beta, sep=", "),")",sep=""), line = -0.50, col = "blue", font = 1)
+cat("\n", x$file_loc2,"\n", x$file_loc,"\n")
+cat("\n")
+}
