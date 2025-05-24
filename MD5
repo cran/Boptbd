@@ -1,4 +1,4 @@
-8905c6362f0fd23fc98564bb6d958788 *DESCRIPTION
+0cf45608c11c23cb18ef51de3c8b2c24 *DESCRIPTION
 7e34815bcbeb2636cfcae4570ab7a1b5 *NAMESPACE
 978fd8666a1f368a01e46a44bd059060 *R/Baoptbd.R
 d60d06717e25b62a82dfebd8dc489045 *R/Bdoptbd.R
@@ -12,10 +12,10 @@ bb762aa6f26dc4a4d2ab97d0bf78517c *R/graphoptBbd.R
 d23819f63b9ce97a9dd66521407e8789 *R/print.Boptbd.R
 ab637307f24f61dee12f770fa269c5a2 *R/print.summary.Boptbd.R
 c4b93bddb22e3eaa5f9685aa254be0d6 *R/summary.Boptbd.R
-00555f0d90eb35056dd53e83dab6427a *man/Boptbd-internal.Rd
-257da8c2627a93bf85ef580f0830e0b7 *man/Boptbd.Rd
-ba0769b746b0ed55f6f1297f93e0032e *man/cmatbd.Rd
+31e275de5fce9f7227b404c959b5415d *man/Boptbd-internal.Rd
+9dd2c95c23eb33d76385ee886e6b5367 *man/Boptbd.Rd
+eab93f78d97d6750f4ae718a965f493b *man/cmatbd.Rd
 9012043c5446a46298ee6de45af861a1 *man/fixparBbd.Rd
-9c1ae89f72ad71cb6e8b94174bc79d23 *man/graphoptBbd.Rd
-cbe9ad5918baaf5f744d37e208aaae64 *man/intcbd.Rd
+b2c843e011fa2b29df0efcab685868a9 *man/graphoptBbd.Rd
+a3e191c5ac04aade29d4fb0cbe5e94e5 *man/intcbd.Rd
 50602e5f788a1c1e259f0aa143af497d *man/mmenuBbd.Rd

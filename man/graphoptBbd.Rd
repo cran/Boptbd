@@ -32,7 +32,7 @@ character specifying the optimality criteria to be used. Thus, \code{Optcrit} ta
 }
 }
 \details{
-Detail discussions  concerning the constructions of a graphs can be found in \code{\link{igraph}} R package.
+Detail discussions  concerning the constructions of a graphs can be found in \code{igraph} R package.
 }
 \value{
 Returns the graphical layout of the resultant Bayesian optimal block design '\code{OptdesF}' on a separate pop-up window. Furthermore, the function saves the graphical layout of the resultant Bayesain optimal block design in .pdf format in a temporary directory. 
@@ -53,7 +53,7 @@ on "\code{close}" menu that is located at the top-left of the graph plot pop-up 
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 
 \seealso{
-\code{\link{igraph}}
+\code{igraph}
 }
 \examples{
     ##To create the graphical layout of the D-optimal block design
